@@ -1,31 +1,27 @@
-h2 {
-  margin: 0;
-  color: #666;
-  padding-top: 90px;
-  font-size: 52px;
-  font-family: "trebuchet ms", sans-serif;
+.cards {
+  display: flex;
+  height: 200px;
+  background-color: #373737;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
-.item {
-  background: white;
-  text-align: center;
-  height: 300px !important;
+.card-1 {
+  background-color: #1abc9c;
 }
-
-.carousel {
-  margin-top: 20px;
+.card-2 {
+  background-color: #9b59b6;
 }
-
-.bs-example {
-  margin: 20px;
+.card-3 {
+  background-color: #e74c3c;
 }
-
-.carousel.carousel-fade .item {
-  opacity: 0;
-  filter: alpha(opacity=0); /* ie fix */
+.card-4 {
+  background-color: #f1c40f;
 }
-
-.carousel.carousel-fade .active.item {
-  opacity: 1;
-  filter: alpha(opacity=100); /* ie fix */
+.card-5 {
+  background-color: #bdc3c7;
+}
+.card-6 {
+  background-color: #2980b9;
 }

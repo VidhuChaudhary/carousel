@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
-import "./test.js";
 import Carousel from "./Carousel";
-import './Carousel'
 
 function App() {
   return (
